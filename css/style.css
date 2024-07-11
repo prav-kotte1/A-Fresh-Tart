@@ -1338,7 +1338,7 @@ div#news-slider .owl-next {
   
 
   .contact100-btn-hide {
-    color: #333333;
+    color: #ffffff;
     font-size: 14px;
   
     position: absolute;
@@ -1365,13 +1365,13 @@ div#news-slider .owl-next {
   
   .contact100-btn-hide:hover {
     background-color: #333333;
-    color: #fff;
+    color: #ffffff;
   }
   
 
   
   .contact100-btn-show {
-    color: #fff;
+    color: #ffffff;
     font-size: 39px;
   
     position: fixed;
@@ -1463,7 +1463,7 @@ div#news-slider .owl-next {
 
 .address {
     width: 100%;
-    color: #fff;
+    color: #000000;
     margin: 0px;
 }
 
@@ -1488,7 +1488,7 @@ div#news-slider .owl-next {
   font-family: 'Righteous';
   color: rgb(68, 68, 68);
   margin-bottom: 15px;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   line-height: 1;
   text-align: left;
   
@@ -1497,7 +1497,7 @@ div#news-slider .owl-next {
 .addess-description p{
   font-size: 15px;
   font-family: "Roboto";
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 
