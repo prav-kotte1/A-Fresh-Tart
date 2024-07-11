@@ -52,7 +52,7 @@ a {
   font-family: 'Poppins';
   font-size: 14px;
   line-height: 1.7;
-  color: #666666;
+  color: white;
   margin: 0px;
 }
 
@@ -78,7 +78,7 @@ p {
   font-family: 'Poppins';
   font-size: 14px;
   line-height: 1.7;
-  color: #666666;
+  color: white;
   margin: 0px;
 }
 
@@ -184,7 +184,7 @@ iframe {
 .slide-content p{
     margin-bottom: 20px;
     margin-top: 20px;
-    color: #ffffff70;
+    color: white;
     font-family: 'Roboto';
     font-size: 18px;
     visibility: hidden;
@@ -211,7 +211,7 @@ iframe {
   font-family: 'Roboto';
   font-size: 14px;
   line-height: 1.7;
-  color: #666666;
+  color: white;
   margin: 0px;
   font-size: 22px;
   color: #fff;
@@ -249,12 +249,12 @@ iframe {
 }
 .owl-dot.active {
     margin-left: 10px;
-    border: 2px solid #ffffff70;
+    border: 2px solid white;
     padding:10px;
     border-radius: 40px;
     width: 40px;
     height: 40px;
-    color: #ffffff70;
+    color: white;
 }
 .owl-carousel .owl-dot, 
 .owl-carousel .owl-nav .owl-next, .owl-carousel .owl-nav .owl-prev {
