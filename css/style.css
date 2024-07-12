@@ -715,7 +715,7 @@ div#news-slider .owl-next {
 
   margin-top: 20px;
   font-weight: 800;
-  color: #f9b000;
+  color: #ffffff;
   line-height: 1.7;
   letter-spacing: 6px;
   text-transform: uppercase;
@@ -752,7 +752,7 @@ div#news-slider .owl-next {
 #section4 .owl-item.active p
 {
   visibility: visible;
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-iteration-count: 1;
   animation-name: fadeInUp;
 }
@@ -780,7 +780,7 @@ div#news-slider .owl-next {
 .testimonial-content  h4{
 
   font-weight: 800;
-  color: #f9b000;
+  color: #ffffff;
   line-height: 1.7;
   text-transform: uppercase;
   text-align: center;
@@ -803,9 +803,9 @@ div#news-slider .owl-next {
 .testimonial-area .owl-prev {
   position: absolute;
   bottom: -40px;
-  left: 40%;
+  left: 40%;  
   text-transform: uppercase;
-  color: #ffffff70;
+  color: #000000;
 }
 
 .testimonial-area .owl-next  {
@@ -813,7 +813,7 @@ div#news-slider .owl-next {
   bottom: -40px;
   right: 40%;
   text-transform: uppercase;
-  color: #ffffff70;
+  color: #000000;
 }
 
 
