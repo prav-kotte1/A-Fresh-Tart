@@ -52,16 +52,18 @@ a {
   font-family: 'Poppins';
   font-size: 14px;
   line-height: 1.7;
-  color: rgb(128, 128, 128);
+  color: rgb(255, 255, 255);
   margin: 0px;
 }
 
 a:focus {
   outline: none !important;
+  color: #4291d6;
 }
 
 a:hover {
   text-decoration: none;
+  color: #4291d6;
 }
 
 .logo-text a{
@@ -466,7 +468,7 @@ img.imgback:hover {
 .post-slide .post-title {
   font-size: 17px;
   font-family: "Roboto";
-  color: rgb(51, 51, 51);
+  color: rgb(0, 0, 0);
   line-height: 1.7;
   text-align: center;
   font-weight: bold;
@@ -503,8 +505,8 @@ div#news-slider .owl-dot.active {
   border-radius: 0px;
   width: 30px;
   height: 40px;
-  color: #270909a6;
-  border-bottom: 3px solid #83ad00;
+  color: #000000a6;
+  border-bottom: 3px solid #bebaba;
   font-size: 22px;
   font-weight: bold;
 }
@@ -525,10 +527,10 @@ div#news-slider .owl-prev {
   text-transform: uppercase;
   font-size: 12px;
   font-family: "Roboto";
-  color: rgb(204, 204, 204);
+  color: rgb(0, 0, 0);
   line-height: 1.7;
   text-align: center;
-  background: #ffffff;
+  background: #ffffff00;
   padding: 10px;
   
 }
@@ -543,23 +545,24 @@ div#news-slider .owl-next {
   text-transform: uppercase;
   font-size: 12px;
   font-family: "Roboto";
-  color: rgb(204, 204, 204);
+  color: rgb(10, 9, 9);
   line-height: 1.7;
   text-align: center;
-  background: #ffffff;
+  background: #ffffff00;
   padding: 10px;
 }
 
-.post-slide{margin-left: 10px;margin-right: 10px;background:#fff;box-shadow:0 1px 2px rgba(43,59,93,.3);margin-bottom:2em}
+.post-slide{color: #000; margin-left: 10px;margin-right: 10px;background:#626262;box-shadow:0 1px 2px rgba(64, 172, 255, 0.3);margin-bottom:2em}
 .post-slide .post-img{position:relative;margin-bottom:20px}
 .post-slide .post-img img{width:100%;height:auto}
 
 
 .post-abs {
+  color: #000;
   width: 0px;
   height: 100%;
   position: absolute;
-  background: rgba(221, 221, 221, 0.4);
+  background: rgba(255, 255, 255, 0.4);
   transition: width 0.5s;
 }
 
@@ -568,13 +571,14 @@ div#news-slider .owl-next {
 }
 
 .post-img p {
-  color: #fff;
+  color: #000000;
   margin-top: 150px;
   text-align: center;
   visibility: hidden;
 }
 
 .post-img:hover p {
+  color: #000;
   visibility: visible;
   animation-duration: 2s;
   animation-iteration-count: 1;
