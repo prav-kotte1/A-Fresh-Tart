@@ -1,15 +1,4 @@
-/*
-Theme Name: Cemre Bakery Theme
-Theme URI: https://bakery.cemreworks.com
-Author: Cemre Tellioğlu Tunçay
-Author URI: https://cemreworks.com
-*/
-/*
-* ==========================================
-* GENERAL AND HEADER START
-* ==========================================
-*/
-
+/* GENERAL AND HEADER START */
 
 .fixedArea {
     position: fixed;
@@ -19,7 +8,6 @@ Author URI: https://cemreworks.com
     padding-left: 10px;
     width: 100%;
 }
-
 
 .noPadding{
     padding: 0px;
@@ -34,8 +22,6 @@ p.colorfullText {
     letter-spacing: 2px;
 }
 
-
-
 * {
   margin: 0px; 
   padding: 0px; 
@@ -47,7 +33,6 @@ body, html {
   font-family: 'Poppins';
 }
 
-/*---------------------------------------------*/
 a {
   font-family: 'Poppins';
   font-size: 14px;
@@ -71,7 +56,6 @@ a:hover {
   line-height: 0;
 }
 
-/*---------------------------------------------*/
 h1,h2,h3,h4,h5,h6 {
   margin: 0px;
 }
@@ -89,10 +73,6 @@ ul, li {
   list-style-type: none;
 }
 
-
-
-
-/*---------------------------------------------*/
 input {
   outline: none;
   border: none;
@@ -117,9 +97,6 @@ textarea:focus:-moz-placeholder { color:transparent; }
 textarea:focus::-moz-placeholder { color:transparent; }
 textarea:focus:-ms-input-placeholder { color:transparent; }
 
-
-
-/*---------------------------------------------*/
 button {
   outline: none !important;
   border: none;
@@ -135,17 +112,9 @@ iframe {
 }
 
 
-/*
-* ==========================================
-* GENERAL AND HEADER END
-* ==========================================
-*/
+/* GENERAL AND HEADER END */
 
-/*
-* ==========================================
-* MAIN SLIDER START
-* ==========================================
-*/
+/* MAIN SLIDER START */
 
 .classic{
     max-width: 100px;
@@ -172,8 +141,6 @@ iframe {
   animation-name: fadeInUp;
 }
 
-
-
 .slide-content h2{
     font-family: 'Righteous';
     margin-bottom: 20px;
@@ -181,7 +148,6 @@ iframe {
     visibility: hidden;
 
 }
-
 
 .slide-content p{
     margin-bottom: 20px;
@@ -224,10 +190,6 @@ iframe {
 }
 
 
-
-
-
-
 .owl-dots {
     counter-reset: dots;
 }
@@ -263,18 +225,9 @@ iframe {
     text-align: center;
 }
 
-/*
-* ==========================================
-* MAIN SLIDER END
-* ==========================================
-*/
+/* MAIN SLIDER END */
 
-
-/*
-* ==========================================
-* SECTION1 START
-* ==========================================
-*/
+/* SECTION1 START */
 
 
 .topOff{
@@ -302,7 +255,6 @@ iframe {
 
 }
 
-
 .colorfullPanel h2 span{
     font-size: 36px;
     color: #85a900;
@@ -320,20 +272,11 @@ iframe {
   background-color: #000;
 }
 
-
-/*
-* ==========================================
-* SECTION1 END
-* ==========================================
-*/
+/* SECTION1 END */
 
 
 
-/*
-* ==========================================
-* SECTION2 START 
-* ==========================================
-*/
+/* SECTION2 START */
 section#section2 {
   padding-top: 65px;
   padding-bottom: 150px;
@@ -348,8 +291,6 @@ section#section2 .maintext span{
   text-transform: uppercase;
 
 }
-
-
 
 section#section2 .maintext h2 {
   font-size: 70px;
@@ -394,7 +335,6 @@ section#section2 .shapes p{
 .minHeightProp{
   min-height: 150px;
 }
-
 
 
 .section-title h3{
@@ -443,11 +383,7 @@ img.imgback:hover {
 }
 
 
-/*
-* ==========================================
-* SECTION2 END 
-* ==========================================
-*/
+/* SECTION2 END */
 .content h3{
   transition: color 0.5s;
 
@@ -458,13 +394,7 @@ img.imgback:hover {
 
 }
 
-
-/*
-* ==========================================
-* PRODUCTS SECTION (SECTION3) START  
-* ==========================================
-*/
-
+/* PRODUCTS SECTION START */
 .post-slide .post-title {
   font-size: 17px;
   font-family: "Roboto";
@@ -536,8 +466,6 @@ div#news-slider .owl-prev {
 }
 
 
-
-
 div#news-slider .owl-next {
   position: absolute;
   bottom: -20px;
@@ -584,23 +512,9 @@ div#news-slider .owl-next {
   animation-iteration-count: 1;
   animation-name: fadeInUp;
 }
+/* PRODUCTS SECTION END */
 
-
-
-
-/*
-* ==========================================
-* PRODUCTS SECTION (SECTION3) END  
-* ==========================================
-*/
-
-
-/*
-* ==========================================
-* NAVBAR START
-* ==========================================
-*/
-
+/* NAVBAR END */
 .navbar.active {
   background: #333333;
   border-radius: 0px;
@@ -692,22 +606,9 @@ div#news-slider .owl-next {
   background: #f9b000;
 
 }
+/* NAVBAR END */
 
-
-/*
-* ==========================================
-* NAVBAR END
-* ==========================================
-*/
-
-
-
-/*
-* ==========================================
-* TESTIMONIALS START
-* ==========================================
-*/
-
+/* TESTIMONIAL START */
 #section4{
   padding-top: 30px;
   min-height: 400px;
@@ -747,8 +648,6 @@ div#news-slider .owl-next {
   visibility: hidden;
 }
 
-
-
 #section4 .owl-item.active h2, 
 #section4 .owl-item.active h3, 
 #section4 .owl-item.active h4, 
@@ -766,7 +665,6 @@ div#news-slider .owl-next {
     margin-top: 50px;
     margin-bottom: 50px;
 }
-
 
 
 .testimonial-content {
@@ -819,20 +717,9 @@ div#news-slider .owl-next {
   text-transform: uppercase;
   color: #000000;
 }
+/* TESTIMONIALS END */
 
-
-/*
-* ==========================================
-* TESTIMONIALS END
-* ==========================================
-*/
-
-
-/*
-* ==========================================
-* BANNER SECTION START
-* ==========================================
-*/
+/* BANNER SECTION START */
 .banner {
     color: rgb(255, 255, 255);
     padding-bottom: 45px;
@@ -900,18 +787,9 @@ div#news-slider .owl-next {
     text-align: center;  
     padding-top: 25px;
 }
-/*
-* ==========================================
-* BANNER SECTION END
-* ==========================================
-*/
+/* BANNER SECTION END */
 
-/*
-* ==========================================
-* BLOG SECTION START
-* ==========================================
-*/
-
+/* BLOG SECTION START */
 
 .blog-area {
   padding: 40px;
@@ -979,19 +857,10 @@ div#news-slider .owl-next {
   line-height: 1.4;
   text-align: left;
 }
+/* BLOG SECTION END */
 
-/*
-* ==========================================
-* BLOG SECTION END
-* ==========================================
-*/
 
-/*
-* ==========================================
-* OWL CAROUSEL GENERAL STYLES START
-* ==========================================
-*/
-
+/* OWL CAROUSAL START GENERAL */
 .owl-theme .owl-controls{
     margin-top: 30px;
 }
@@ -1023,17 +892,9 @@ div#news-slider .owl-next {
 .owl-height{
   min-height: 150px;
 }
-/*
-* ==========================================
-* OWL CAROUSEL GENERAL STYLES END
-* ==========================================
-*/
+/* OWL CAROUSEL GENERAL STYLES END*/
 
-/*
-* ==========================================
-* CONTACT FORM STARTS
-* ==========================================
-*/
+/* CONTACT FORM STARTS */
 
 .contact{
   background: #e7e4e4;
@@ -1042,10 +903,6 @@ div#news-slider .owl-next {
 .contact100-form{
     margin-top: 50px;
 }
-
-  
-
-  
   .container-contact100 {
     width: 100%;  
     min-height: 100vh;
@@ -1121,8 +978,6 @@ div#news-slider .owl-next {
       line-height: 1;
       text-align: center;  
 }
-  
-  
   
   .wrap-input100 {
     width: 100%;
@@ -1480,21 +1335,10 @@ div#news-slider .owl-next {
       transform: scale(1.1);
     }
   }
-
-
-  
-
-
 /*
-* ==========================================
-* CONTACT FORM ENDS
-* ==========================================
-*/
+*  CONTACT FORM ENDS */
 /*
-* ==========================================
-* ADRESS SECTION STARTS
-* ==========================================
-*/
+*  ADRESS SECTION STARTS */
 
 .address {
     width: 100%;
@@ -1568,7 +1412,6 @@ li.address-section .fa{
 }
 
 
-
 .single-widget li.address-section .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
@@ -1597,17 +1440,9 @@ li.address-section .fa{
   line-height: 30px;
 }
 
-/*
-* ==========================================
-* ADRESS SECTION ENDS
-* ==========================================
-*/
+/* ADRESS SECTION ENDS */
 
-/*
-* ==========================================
-* FOOTER SECTION START
-* ==========================================
-*/
+/* FOOTER SECTION START */
 .footer-area {
   color: #000;
 }
@@ -1624,9 +1459,4 @@ li.address-section .fa{
   margin: 0;
 }
 
-
-/*
-* ==========================================
-* FOOTER END
-* ==========================================
-*/
+/* FOOTER END */
