@@ -859,6 +859,37 @@ div#news-slider .owl-next {
   color: rgb(255, 255, 255);
   line-height: 1;
   text-align: center;
+  background-image: linear-gradient(
+    to right,
+    #F8B000
+    #F8B000 50%,
+    #ffffff 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.content h2:before {
+  content: '';
+  background: #54b3d6;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+}
+
+.content h2:hover{
+  background-position: 0;
+  
+}
+
+.content h2:hover::before{
+  width : 100%;
 }
 
 .content h3 {
@@ -1577,84 +1608,25 @@ li.address-section .fa{
 * FOOTER SECTION START
 * ==========================================
 */
-.main-footer {
-  padding: 40px;
-  background-color: rgb(91, 90, 90);
+.footer-area {
+  color: #000;
 }
 
-.footer-social li:first-child {
-  margin-left: 0px;
-  background-color: rgb(255, 255, 255);
+.footer-bottom {
+  color: #333;
 }
 
-.footer-social li {
-  float: left;
-  margin-left: 0px;
-}
-
-.single-widget h3{
-    font-size: 18px;
-    font-family: "Roboto";
-    color: rgb(255, 255, 255);
-    line-height: 1.4;
-    text-align: left;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-
-
-.lock{
-  font-weight: bold;
-  border-bottom: 2px solid rgb(248, 176, 0);
-  width: 40px;
-  height: 3px;
-  margin-bottom: 10px;
-
-}
-
-
-.single-widget-description {
-  font-family: 'Poppins';
+.footer-bottom p {
   font-size: 14px;
-  line-height: 1;
-  color: #ffffff;
-}
-
-.footer-section .footer-icon {
-  width: 25px;
-  height: 25px;
-  border-radius: 10px solid #83ac00;
-  border: 1.5px solid #83ac00;
-  border-radius: 12px;
+  font-weight: normal;
+  color: #000;
   text-align: center;
+  margin: 0;
 }
 
-.footer-section .footer-icon::after{
-  content: ' \25CF';
-  font-size: 10px;
-  text-align: center;
-  justify-content: center;
-  width: 0px;
-  height: 0px;
-  margin-top: 0px;
-  padding-top: 0px;
-  color: #83ac00;
-}
-li.footer-section{
-  margin-bottom: 0px;
-  color: rgb(255, 255, 255);
-}
-
-li.footer-section a:hover p,
-li.footer-section a:focus p{
-  color: #4291d6;
-}
 
 /*
 * ==========================================
 * FOOTER END
 * ==========================================
 */
-
-
