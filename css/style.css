@@ -744,7 +744,7 @@ div#news-slider .owl-next {
 .content span {
   font-size: 15px;
   font-family: "Roboto";
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   line-height: 2.4;
   text-align: center;
   font-weight: bold;
@@ -754,14 +754,14 @@ div#news-slider .owl-next {
 .content h2 {
   font-size: 60px;
   font-family: 'Righteous';
-  color: white;
+  color: black;
   line-height: 1;
   text-align: center;
   background-image: linear-gradient(
     to right,
-    #F8B000,
-    #F8B000 50%,
-    #ffffff 50%
+    rgb(87, 20, 43),
+    rgb(94, 36, 67) 50%,
+    black 50%
   );
   background-size: 200% 100%;
   background-position: -100%;
@@ -775,7 +775,7 @@ div#news-slider .owl-next {
 
 .content h2:before {
   content: '';
-  background: #F8B000;
+  background: rgb(255, 0, 0);
   display: block;
   position: absolute;
   bottom: -3px;
